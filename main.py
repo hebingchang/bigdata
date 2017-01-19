@@ -1,6 +1,6 @@
 import time
 
-class Orders():
+class Bigdata():
     buyer = {}
     good = {}
     order = {}
@@ -128,7 +128,7 @@ class Orders():
             print "Not found.",
         self.prt_time_consuming(start)
 
-order = Orders()
+order = Bigdata()
 
 command = "5"
 while command != "0":
